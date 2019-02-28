@@ -1,5 +1,23 @@
-div {
-  height: 900px;
-  background-color: red;
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+nav {
+  text-transform: uppercase;
+  font-family: PT sans narrow;
+}
+.nav-link
+{
+  font-weight:bold;
+}
+.nav-link:hover
+{
+  font-style:italic;
+  background-color: pink !important;
+}
+header{
+  height:900px;
+  width:100%;
+  text-align:center;
+  background-image: url("something.jpg");
+  background-size:cover;
+}
+header p{
+  font-style:italic;
 }
