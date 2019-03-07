@@ -12,12 +12,35 @@ nav {
   background-color: pink !important;
 }
 header{
-  height:900px;
+  height:630px;
   width:100%;
   text-align:center;
   background-image: url("something.jpg");
   background-size:cover;
+  color:white;
 }
 header p{
   font-style:italic;
+}
+.services i{
+  /*Adjust the size and position of the icon*/
+  font-size: 30px;
+  padding: 10px 10px;
+  
+  color:orange;
+  background-color:red;
+  
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+}
+.services{
+  text-align:center;
+}
+
+.services span{
+  width:130px;
+  display: inline-block;
+}
 }
